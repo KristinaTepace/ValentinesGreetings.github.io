@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentines Day Greetings</title>
+    <link rel="stylesheet" href="Css1.css">
+    <link rel="stylesheet" href="Css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.container').mouseenter(function () {
+                $('.card').stop().animate({
+                    top: '-90px'
+                }, 'slow');
+            }).mouseleave(function () {
+                $('.card').stop().animate({
+                    top: 0
+                }, 'slow');
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- Valentines Card -->
+    <div class="container">  
+        <div class="valentines">
+          <div class="envelope"></div>
+          <div class="front"></div>
+          <div class="card">
+          <div class="ValentinesText">Happy</br> Valentine's</br> Day!</div>
+          <div class="heart"</div>
+          </div>
+          <div class="hearts">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+            <div class="five"></div>
+          </div>
+        </div>
+        </div>
+        <div class="shadow"></div>
+        </div>
+
+    <!-- Diamond Ring -->
+    <div class="jewellery-box">
+        <input id="open" type="checkbox">
+        <label class="open" for="open"></label>
+        <div class="bottom"></div>
+        <div class="inner-top"></div>
+        <div class="inner-bottom"></div>
+        <div class="text">Will You Marry Me?</div>
+        <div class="diamond-ring">
+            <div class="diamond"></div>
+            <div class="band"></div>
+            <div class="inner"></div>
+            <div class="details"></div>
+        </div>
+    </div>
+
+</body>
+</html>
